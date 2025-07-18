@@ -29,6 +29,13 @@ ecom-template/
 
 > 📱 **Planned**: Native mobile app powered by **Nuxt 4 + Capacitor**
 
+## 📋 Requirements
+
+### Before starting development, make sure you have the following installed:
+
+- Node.js >=22.17.1 (recommended latest LTS version)
+- pnpm >=10.x
+
 ## 🚀 Getting Started
 
 ```bash
