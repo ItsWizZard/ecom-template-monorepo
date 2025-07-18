@@ -1,0 +1,15 @@
+{
+  "name": "@ecom-template/types",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.d.ts"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -p tsconfig.json -w"
+  },
+  "packageManager": "pnpm@10.6.3"
+}
