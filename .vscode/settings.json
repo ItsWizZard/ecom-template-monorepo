@@ -4,7 +4,7 @@
   "explorer.fileNesting.patterns": {
     "nuxt.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*, eslint.config.*",
     "nitro.config.*": "jsconfig*, vitest.config.*, cypress.config.*, playwright.config.*, eslint.config.*",
-    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .gitignore, .eslint*, .prettier*, prettier*, .editorconfig, .npmrc, license",
+    "package.json": "package-lock.json, pnpm*, .yarnrc*, yarn*, .gitignore, .eslint*, .prettier*, prettier*, .editorconfig, .npmrc",
     "tsconfig.json": "env.d.ts, tsconfig.ts*"
   },
   "editor.codeActionsOnSave": {
