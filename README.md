@@ -1,0 +1,50 @@
+# 🛍️ E-Commerce Template Monorepo
+
+This is a modern, modular monorepo e-commerce system built with Nuxt 4, Nitro, and a fully typed developer experience using TypeScript and a shared package structure.
+
+## 📦 Monorepo Structure
+
+```text
+ecom-template/
+├── apps/
+│   ├── server/         # Standalone Nitro backend (API, Auth, etc.)
+│   ├── web/            # Nuxt 4 SSR web frontend
+    └── native/         # (Planned) Nuxt 4 SPA + Capacitor mobile app
+│
+├── packages/
+│   └── types/          # Global types (shared across all apps)
+│
+├── .vscode/            # Editor settings and recommended extensions
+├── pnpm-workspace.yaml
+├── LICENSE
+└── README.md
+```
+
+## ⚙️ Tech Stack
+
+- **Nuxt 4** (SSR / Hybrid web frontend)
+- **Nitro** (standalone backend)
+- **TypeScript** (fully typed monorepo)
+- **pnpm** (fast package manager with monorepo support)
+
+> 📱 **Planned**: Native mobile app powered by **Nuxt 4 + Capacitor**
+
+## 🚀 Getting Started
+
+```bash
+# Install dependencies
+pnpm install
+
+# Start type generation
+pnpm dev:types
+
+# Start dev backend
+pnpm dev:server
+
+# Start dev web app
+pnpm dev:web
+```
+
+## 📜 License
+
+[MIT License](./LICENSE) © 2025 [ItsWizZard](https://github.com/ItsWizZard)
