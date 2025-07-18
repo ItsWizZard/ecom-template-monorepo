@@ -1,6 +1,6 @@
 # 🛍️ E-Commerce Template Monorepo
 
-This is a modern, modular monorepo e-commerce system built with Nuxt 4, Nitro, and a fully typed developer experience using TypeScript and a shared package structure.
+This is a modern, modular monorepo e-commerce platform built with Nuxt 4 and Nitro, featuring a fully typed DX powered by TypeScript.
 
 ## 📦 Monorepo Structure
 
@@ -8,8 +8,8 @@ This is a modern, modular monorepo e-commerce system built with Nuxt 4, Nitro, a
 ecom-template/
 ├── apps/
 │   ├── server/         # Standalone Nitro backend (API, Auth, etc.)
-│   ├── web/            # Nuxt 4 SSR web frontend
-    └── native/         # (Planned) Nuxt 4 SPA + Capacitor mobile app
+│   ├── web/            # Nuxt 4 SSR / Hybrid web frontend
+│   └── native/         # (Planned) Nuxt 4 SPA + Capacitor mobile app
 │
 ├── packages/
 │   └── types/          # Global types (shared across all apps)
